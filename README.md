@@ -118,3 +118,18 @@ https://www.python.org/downloads/
 
 ```bash
 python ultimate_system_analyzer.py
+
+
+# Clone the repository
+git clone https://github.com/yourusername/ULTIMATE_SYSTEM_ANALYZER.git
+cd ULTIMATE_SYSTEM_ANALYZER
+
+# (Optional) Create a virtual environment
+python -m venv venv
+venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the analyzer
+python ultimate_system_analyzer.py
