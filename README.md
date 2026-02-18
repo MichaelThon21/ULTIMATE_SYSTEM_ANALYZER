@@ -13,13 +13,14 @@
 ## 📌 Overview
 
 **Ultimate System Analyzer** is a powerful, all-in-one Windows diagnostic tool written in Python.  
-It collects comprehensive system information — from low-level hardware details to registry data and modern Windows security features — and generates professional reports in multiple formats.
+It performs deep system inspection — from low-level hardware details to registry data and modern Windows security features — and generates professional multi-format reports.
 
-Designed for:
-- 🖥 IT professionals  
-- 🔐 Security analysts  
+Built for:
+
+- 🖥 IT Professionals  
+- 🔐 Security Analysts  
 - 🧑‍💻 Developers  
-- ⚙ Power users  
+- ⚙ Power Users  
 
 ---
 
@@ -46,7 +47,7 @@ Designed for:
 - UAC status
 - Secure Boot
 - TPM status
-- Windows Defender
+- Windows Defender status
 - LSA Protection
 - Credential Guard
 - WSL
@@ -66,36 +67,36 @@ Designed for:
 ### 🚀 Performance Benchmarks
 - Multi-threaded CPU benchmark
 - Memory performance test
-- Disk I/O testing
+- Disk I/O performance testing
 - GPU scoring (if supported)
 
 ### 📊 Reporting
-Export reports as:
+Export reports in:
 
 - TXT
 - JSON
 - HTML
-- PDF *(optional)*
-- CSV *(optional)*
+- PDF *(optional – requires `reportlab`)*
+- CSV *(optional – requires `pandas`)*
 
 ---
 
 ## ⚙️ How It Works
 
-1. **Auto-installer**  
+1. **Auto-Installer**  
    Automatically checks and installs missing dependencies via `pip`.
 
-2. **Privilege detection**  
-   Detects Administrator rights and offers UAC elevation for full access.
+2. **Privilege Detection**  
+   Detects Administrator rights and offers UAC elevation for full system access.
 
-3. **Deep system scan**  
-   Collects data using WMI, registry access, Windows APIs, and Python libraries.
+3. **Deep System Scan**  
+   Uses WMI, registry access, Windows APIs, and Python libraries to collect data.
 
-4. **Professional reporting**  
-   Generates structured and formatted reports in your chosen format.
+4. **Professional Reporting**  
+   Generates structured and formatted reports in multiple formats.
 
-5. **Menu-driven interface**  
-   Clean numbered menu with colored output.
+5. **Menu-Driven Interface**  
+   Clean, user-friendly numbered menu with colored output.
 
 ---
 
@@ -114,22 +115,9 @@ https://www.python.org/downloads/
 
 ## 🔧 Installation & Usage
 
-### Option 1 – Quick Run (Auto-Install Dependencies)
+### 🔹 Option 1 – Quick Run (Auto-Install Dependencies)
 
 ```bash
 python ultimate_system_analyzer.py
 
 
-# Clone the repository
-git clone https://github.com/yourusername/ULTIMATE_SYSTEM_ANALYZER.git
-cd ULTIMATE_SYSTEM_ANALYZER
-
-# (Optional) Create a virtual environment
-python -m venv venv
-venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the analyzer
-python ultimate_system_analyzer.py
