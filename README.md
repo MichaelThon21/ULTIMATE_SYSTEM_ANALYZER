@@ -263,7 +263,6 @@ If you find this tool useful, please ⭐ star the repository!
 
 ## 🙌 Acknowledgements
 
-- Inspired by [IObit System Information](https://www.iobit.com)
 - Uses many wonderful open‑source libraries (see dependencies)
 - Thanks to the Python and Windows developer communities
 ```
