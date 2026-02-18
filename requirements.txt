@@ -1,0 +1,19 @@
+# Core requirements (automatically installed by the script if missing)
+psutil>=5.9.0
+py-cpuinfo>=8.0.0
+wmi>=1.5.1
+GPUtil>=1.4.0
+screeninfo>=0.6.7
+colorama>=0.4.6
+
+# Optional packages (for enhanced reports and features)
+# pandas          # CSV export & data analysis
+# numpy           # faster calculations (used by pandas)
+# reportlab       # PDF report generation
+# matplotlib      # charts (future use)
+# py-cryptodome   # encryption (secure reports)
+# netifaces       # advanced network info
+# pywin32         # better Windows integration
+# pystray         # system tray icon
+# pillow          # image processing
+# tqdm            # progress bars (optional)
